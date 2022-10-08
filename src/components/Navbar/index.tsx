@@ -17,7 +17,7 @@ function Navbar () {
           </li>
           <li>Ínicio</li>
           <li>Funcionalidades</li>
-          <li>Exemplo</li>
+          <li>Exemplos</li>
           <li>FAQ</li>
           <li>Login</li>
         </ul>

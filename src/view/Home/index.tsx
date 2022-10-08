@@ -1,4 +1,5 @@
 import Banner from "../../components/Banner"
+import Example from "../../components/Examples"
 import Navbar from "../../components/Navbar"
 import ProblemsAndSolutions from "../../components/ProblemsAndSolutions"
 import { 
@@ -11,6 +12,7 @@ function Home () {
       <Navbar />
       <Banner />
       <ProblemsAndSolutions />
+      <Example />
     </Container>
     
   )
