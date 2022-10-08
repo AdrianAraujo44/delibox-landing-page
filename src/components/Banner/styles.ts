@@ -8,9 +8,10 @@ export const Container = styled.div`
   padding: 30px;
 
   .texts {
-    width: 100%;
+    width: 50%;
     max-width: 700px;
     margin-top: 50px;
+
     .marked {
       color: #10B981;
       display: inline-block;
@@ -31,15 +32,76 @@ export const Container = styled.div`
   .images {
     display: flex;
     gap: 14px;
+    width: 50%;
+    padding: 0px 20px 0px 20px ;
 
     img {
       height: fit-content;
+      width: calc(100% / 3);
+
       :nth-child(2) {
-        margin-top: 100px;
+        margin-top: 90px;
       }
       object-fit: cover;
     }
   }
+
+
+  @media screen and (max-width: 540px) {
+    margin-top: 0px;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    .texts {
+      width: 100%;
+      h1 {
+        font-size: 30px;
+      }
+
+    }
+    .images {
+      display: none;
+    }
+
+  }
+
+  @media screen and (min-width: 541px) and (max-width: 1024px) {
+    .texts {
+      margin-top: 10px;
+      h1 {
+        font-size: 30px;
+      }
+      button {
+        font-size: 14px;
+      }
+    }
+    .images {
+      img {
+        width: calc(100% / 2);
+        :nth-child(2) {
+          display: none;
+        }
+      }
+    }
+  }
+
+  @media screen and (min-width: 1025px) and (max-width: 1280px) {
+    gap: 0px;
+    .texts {
+      h1 {
+        font-size: 35px;
+      }
+    }
+
+    .images {
+      padding-right: 10px;
+    }
+  }
+
+
 `
 
 export const Form = styled(Unform)`
@@ -58,10 +120,13 @@ export const Form = styled(Unform)`
     font-weight: bold;
     font-size: 16px;
     cursor: pointer;
+    display: flex;
+    align-items: center;
 
     :hover {
       background-color: #0DAB77;
       transition: ease;
     }
   }
+
 `
