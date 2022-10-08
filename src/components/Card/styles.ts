@@ -11,7 +11,7 @@ export const Container = styled.div`
   align-items: center;
   text-align: center;
   justify-content: center;
-
+  
   h2 {
     font-size: 18px;
     font-weight: bold;
@@ -28,6 +28,12 @@ export const Container = styled.div`
   }
 
   @media screen and (max-width: 500px) {
+    :nth-child(3) {
+      margin-left: 0px;
+    }
+  }
+
+  @media screen and (max-width: 1070px) {
     :nth-child(3) {
       margin-left: 0px;
     }
