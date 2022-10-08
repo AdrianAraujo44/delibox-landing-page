@@ -5,7 +5,7 @@ import {
 
 function CommomQuestions () {
   return (
-    <Container>
+    <Container id="FAQ">
       <h1>Perguntas frequentes</h1>
       <Question 
         title='is simply dummy'

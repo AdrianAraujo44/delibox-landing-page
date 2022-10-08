@@ -12,7 +12,7 @@ function Functionalities () {
   return (
     <>
       <BgTop />
-      <Title>
+      <Title id="funcionalities" className='funcionalities'>
         <h1>com a delibox você tem mais <span className="marked">facilidade</span> <br/> e <span className="marked">praticidade</span> para o seu delivery</h1>
       </Title>
       <SwiperBackground>

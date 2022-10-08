@@ -6,6 +6,7 @@ export const Container = styled.div`
   justify-content: space-between;
   margin-top: 50px;
   padding: 30px;
+  flex-wrap: wrap;
 
   .texts {
     width: 50%;
@@ -38,17 +39,15 @@ export const Container = styled.div`
     img {
       height: fit-content;
       width: calc(100% / 3);
-
+      object-fit: cover;
       :nth-child(2) {
         margin-top: 90px;
       }
-      object-fit: cover;
     }
   }
 
 
   @media screen and (max-width: 540px) {
-    margin-top: 0px;
     text-align: justify;
     display: flex;
     flex-direction: column;
@@ -57,13 +56,25 @@ export const Container = styled.div`
     
     .texts {
       width: 100%;
+      margin-top: -50px;
       h1 {
         font-size: 30px;
       }
 
     }
     .images {
-      display: none;
+      width: 100%;
+      margin-top: 20px;
+      display: flex;
+      justify-content: center;
+      gap: 5px;
+
+        img {
+          width: calc(100% / 2.5);
+          :nth-child(2) {
+            margin-top: 0px;
+          }
+      }
     }
 
   }

@@ -11,7 +11,7 @@ function Banner () {
   const formRef = useRef<FormHandles>(null)
 
   return (
-    <Container>
+    <Container id="banner">
       <div className="texts">
         <h1>Lorem ipsum dolor sit amet, consectetur <span className="marked">adipiscing</span> elit,  sed do eiusmod</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
