@@ -7,6 +7,7 @@ export const Container = styled.div`
   align-items: center;
   margin-top: 250px;
   gap: 20px;
+  padding-bottom: 60px;
   h1 {
     color: #10B981;
     font-weight: bold;

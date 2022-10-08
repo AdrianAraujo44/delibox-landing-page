@@ -4,7 +4,8 @@ export const Container = styled.div`
   padding: 25px;
   border-radius: 20px;
   border: 1px solid #D0C8C8;
-  width: 380px;
+  max-width: 380px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -24,5 +25,11 @@ export const Container = styled.div`
 
   :nth-child(3) {
     margin-left: 150px;
+  }
+
+  @media screen and (max-width: 500px) {
+    :nth-child(3) {
+      margin-left: 0px;
+    }
   }
 `

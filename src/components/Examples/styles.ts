@@ -16,6 +16,7 @@ export const Container = styled.div`
 export const Row = styled.div`
   display: flex;
   gap: 60px;
+  flex-wrap: wrap;
 `
 
 export const Box = styled.div`

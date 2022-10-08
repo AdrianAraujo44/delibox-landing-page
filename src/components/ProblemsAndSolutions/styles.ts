@@ -5,6 +5,9 @@ export const Container = styled.div`
   margin-top: 200px;
   justify-content: space-around;
   align-items: flex-start;
+  padding: 30px;
+  gap: 20px;
+  flex-wrap: wrap;
 `
 
 export const Box = styled.div`
@@ -15,5 +18,9 @@ export const Box = styled.div`
     font-size: 30px;
     color: #10B981;
     font-weight: bold;
+  }
+  img {
+    width: 100%;
+    object-fit: contain;
   }
 `

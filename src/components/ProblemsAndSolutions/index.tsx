@@ -18,7 +18,7 @@ function ProblemsAndSolutions() {
           <Card />
         </Box>
         <Box>
-          <img src={person4} alt="" />
+          <img src={person4} alt=""/>
         </Box>
       </Container>
       <Container>

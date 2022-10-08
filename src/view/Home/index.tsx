@@ -1,10 +1,12 @@
 import Banner from "../../components/Banner"
 import CommomQuestions from "../../components/CommonQuestions"
 import Example from "../../components/Examples"
+import Functionalities from "../../components/Functionalities"
 import Navbar from "../../components/Navbar"
 import ProblemsAndSolutions from "../../components/ProblemsAndSolutions"
+
 import { 
-  Container
+  Container,
 } from "./styles"
 
 function Home () {
@@ -13,6 +15,7 @@ function Home () {
       <Navbar />
       <Banner />
       <ProblemsAndSolutions />
+      <Functionalities />
       <Example />
       <CommomQuestions />
     </Container>

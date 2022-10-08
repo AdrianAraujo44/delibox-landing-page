@@ -5,6 +5,7 @@ export const Container = styled.div`
   display: flex;
   justify-content: space-between;
   margin-top: 50px;
+  padding: 30px;
 
   .texts {
     width: 100%;
@@ -36,6 +37,7 @@ export const Container = styled.div`
       :nth-child(2) {
         margin-top: 100px;
       }
+      object-fit: cover;
     }
   }
 `

@@ -1,9 +1,28 @@
 import styled from "styled-components";
 
-export const  Container = styled.div`
-  max-width: 1800px;
+export const Container = styled.div`
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+`
+
+export const Title = styled.div`
+  display: flex;
+  justify-content: center;
+  background-color: #ECECEC;
+  align-items: center;
+
+  h1 {
+    background-color: #ECECEC;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+  };
+
+  .marked {
+    color: #10B981;
+    display: inline-block;
+  }
 `
 
 export const SwiperBackground = styled.div`
