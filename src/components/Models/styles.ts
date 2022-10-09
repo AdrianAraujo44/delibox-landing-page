@@ -10,13 +10,24 @@ export const Container = styled.div`
 
   h1 {
     color: #10B981;
+    text-align: center;
   }
+
+  @media screen and (max-width: 540px) {
+    margin-top: 40px;
+  }
+
 `
 
 export const Row = styled.div`
   display: flex;
   gap: 60px;
   flex-wrap: wrap;
+  justify-content: center;
+
+  @media screen and (max-width: 540px) {
+    gap: 10px;
+  }
 `
 
 export const Box = styled.div`
@@ -29,5 +40,12 @@ export const Box = styled.div`
   img {
     width: 120px;
     height: 120px;
+  }
+
+  @media screen and (max-width: 540px) {
+    img {
+      width: 100px;
+      height: 100px;
+    }
   }
 `

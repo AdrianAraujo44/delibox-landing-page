@@ -3,7 +3,9 @@ import styled from "styled-components";
 export const Container = styled.div`
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-direction: column;
+  width: 100%;
 `
 
 export const Title = styled.div<{showAnswer:boolean}>`
@@ -14,15 +16,11 @@ export const Title = styled.div<{showAnswer:boolean}>`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  min-width: 700px;
-  max-width: 700px;
   width: 100%;
   cursor: pointer;
 `
 
 export const Answer = styled.div`
-  min-width: 700px;
-  max-width: 700px;
   width: 100%;
   height: fit-content;
   padding: 20px;

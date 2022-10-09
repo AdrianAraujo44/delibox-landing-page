@@ -1,7 +1,7 @@
 import { useState } from "react"
 import Banner from "../../components/Banner"
 import CommomQuestions from "../../components/CommonQuestions"
-import Example from "../../components/Examples"
+import Models from "../../components/Models"
 import Functionalities from "../../components/Functionalities"
 import MenuMobile from "../../components/MenuMobile"
 import Navbar from "../../components/Navbar"
@@ -24,7 +24,7 @@ function Home () {
       <Banner />
       <ProblemsAndSolutions />
       <Functionalities />
-      <Example />
+      <Models />
       <CommomQuestions />
     </Container>
     

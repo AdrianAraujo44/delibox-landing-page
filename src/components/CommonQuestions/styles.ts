@@ -5,11 +5,16 @@ export const Container = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 250px;
-  gap: 20px;
-  padding-bottom: 60px;
+  align-self: center;
+  margin-top: 200px;
+  gap: 10px;
+  width: 100%;
+  max-width: 600px;
+  padding: 0px 10px 60px 10px;
+
   h1 {
     color: #10B981;
     font-weight: bold;
+    text-align: center;
   }
 `
