@@ -2,11 +2,16 @@ import {
   Container
 } from './styles'
 
-function Card () {
+interface ICard {
+  title:string, 
+  text: string
+}
+
+function Card ({title, text}: ICard) {
   return (
     <Container>
-      <h2>ineficiência ao receber um pedido</h2>
-      <p> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
+      <h2>{title}</h2>
+      <p>{text}</p>
     </Container>
   )
 }

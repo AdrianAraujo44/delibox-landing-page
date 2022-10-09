@@ -11,10 +11,10 @@ function Banner () {
   const formRef = useRef<FormHandles>(null)
 
   return (
-    <Container id="banner">
+    <Container>
       <div className="texts">
-        <h1>Lorem ipsum dolor sit amet, consectetur <span className="marked">adipiscing</span> elit,  sed do eiusmod</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <h1>Administre seu <span className="marked">delivery</span> com site próprio e fique longe de comissões abusivas</h1>
+        <p>Com a plataforma da delibox seus clientes fazem pedidos direto com você através do site criado com sua marca para anunciar e vender seus produtos. <strong>Obtenha acesso gratuito por 15 dias.</strong></p>
         <Form ref={formRef} onSubmit={(data) => console.log(data)}>
           <InputForm 
             name="whatsapp"

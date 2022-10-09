@@ -1,16 +1,12 @@
-import React, { useRef, useState } from "react";
-// Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-
-// Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
-
 import "./styles.css";
-// import required modules
 import { Autoplay, Pagination } from "swiper";
+
 import page1 from '../../assets/page1.png'
 import page2 from '../../assets/page2.png'
+import page3 from '../../assets/page3.png'
 
 function Slider() {
   return (
@@ -32,10 +28,7 @@ function Slider() {
         <img src={page2} alt="" />
       </SwiperSlide>
       <SwiperSlide>
-        <img src={page1} alt="" />
-      </SwiperSlide>
-      <SwiperSlide>
-        <img src={page2} alt="" />
+        <img src={page3} alt="" />
       </SwiperSlide>
     </Swiper>
   );

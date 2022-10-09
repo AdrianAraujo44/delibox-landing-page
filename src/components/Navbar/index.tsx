@@ -8,7 +8,7 @@ import {
 
 function Navbar({ setMenuIsVisible }: any) {
   return (
-    <Container>
+    <Container id="inicio">
       <img src={logo} alt="logo" />
       <div className="links">
         <ul>
@@ -20,7 +20,7 @@ function Navbar({ setMenuIsVisible }: any) {
           </a>
           <li>
             <Link activeClass="active" to="banner" spy={true} smooth={true} offset={50} duration={500} delay={100}>
-              Ínicio
+              Início
             </Link>
           </li>
           <li>

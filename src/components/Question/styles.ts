@@ -26,4 +26,5 @@ export const Answer = styled.div`
   padding: 20px;
   border: 2px solid #F2F2F2;
   border-radius: 0px 0px 6px 6px;
+  text-align: justify;
 `
