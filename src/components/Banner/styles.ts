@@ -61,6 +61,10 @@ export const Container = styled.div`
         font-size: 30px;
       }
 
+      p{
+        font-size: 16px;
+      }
+
     }
     .images {
       width: 100%;
@@ -128,7 +132,6 @@ export const Form = styled(Unform)`
     color: #fff;
     border: none;
     padding: 10px;
-    font-weight: bold;
     font-size: 16px;
     cursor: pointer;
     display: flex;

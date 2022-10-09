@@ -20,7 +20,7 @@ function Navbar({ setMenuIsVisible }: any) {
           </a>
           <li>
             <Link activeClass="active" to="banner" spy={true} smooth={true} offset={50} duration={500} delay={100}>
-              ínicio
+              Ínicio
             </Link>
           </li>
           <li>
