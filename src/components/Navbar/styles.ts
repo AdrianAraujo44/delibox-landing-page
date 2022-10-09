@@ -1,19 +1,26 @@
 import styled from "styled-components";
 
-export const Container = styled.div`
+export const Container = styled.nav`
   width: 100%;
   height: 80px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 35px;
-  /* position: fixed;
-  background-color: #10B981;
+/*   position: fixed; */
+/*   background-color: #10B981; */
+  /* background-color: #fff;
+  border-bottom: 1px solid gray;
   z-index: 10; */
 
   img {
     width: 55px;
     height: 55px;
+
+    @media screen and (max-width: 540px) {
+      width: 40px;
+      height: 40px;
+    }
   }
 
   .links {
@@ -56,19 +63,25 @@ export const Container = styled.div`
     }
 
     @media screen and (max-width: 900px){
-      a {
-        display: none;
-      }
-
       ul {
         display: flex;
       }
       li {
+        display: none;
         :hover {
           border: none;
         }
+
         :first-child {
-          display: none;
+          display: flex;
+          align-items: center;
+          font-size: 14px;
+
+          svg {
+            height: 15px;
+            width: 15px;
+            margin-top: -2px;
+          }
         } 
       }
      
