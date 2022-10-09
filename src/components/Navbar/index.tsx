@@ -38,7 +38,7 @@ function Navbar({ setMenuIsVisible }: any) {
               FAQ
             </Link>
           </li>
-          <li><a>Login</a></li>
+          <li><a href="https://portaldelibox.netlify.app" target={'_blank'}>Login</a></li>
           <li className='menu' >
             <IoMenu size={30} onClick={() => setMenuIsVisible(true)} />
           </li>

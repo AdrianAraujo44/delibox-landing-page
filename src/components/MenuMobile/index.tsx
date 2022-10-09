@@ -25,7 +25,7 @@ function MenuMobile({ menuIsVisible, setMenuIsVisible }:IMenuMobile) {
         <Link activeClass="active" to="funcionalities" spy={true} smooth={true} offset={-20} duration={500} delay={100} onClick={() => setMenuIsVisible(false)}>Funcionalidades</Link>
         <Link activeClass="active" to="examples" spy={true} smooth={true} offset={-20} duration={500} delay={100} onClick={() => setMenuIsVisible(false)}>Modelos</Link>
         <Link activeClass="active" to="FAQ" spy={true} smooth={true} offset={-20} duration={500} delay={100} onClick={() => setMenuIsVisible(false)}>FAQ</Link>
-        <a href="#">Login</a>
+        <a href="https://portaldelibox.netlify.app" target={'_blank'}>Login</a>
       </nav>
     </Container>
   )
